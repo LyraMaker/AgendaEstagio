@@ -8,6 +8,7 @@ namespace AgendaEstagio\application\Entity;
  */
 class Aluno
 {
+    
     private $matricula;
     private $ano;
     private $semestre;
