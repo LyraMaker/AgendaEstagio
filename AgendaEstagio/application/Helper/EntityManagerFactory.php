@@ -17,7 +17,7 @@ class EntityManagerFactory
         $config = Setup::createAnnotationMetadataConfiguration([$root."application/"],$isDev);
         $connec = [
             'driver'=> 'pdo_sqlite',
-            'path'=>  $root.'/var/data/banco.sqlite'];
+            'path'=>  $root.'var/data/banco.sqlite'];
         return EntityManager::create($connec,$config);
     }
 }

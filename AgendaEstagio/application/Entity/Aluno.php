@@ -8,9 +8,23 @@ namespace AgendaEstagio\application\Entity;
  */
 class Aluno
 {
-    
+    /**
+     * 
+     * @Id
+     * @Column(type="integer")
+     */
     private $matricula;
+    /**
+     *
+     * @Id
+     * @Column(type="integer")
+     */
     private $ano;
+    /**
+     *
+     * @Id
+     * @Column(type="integer")
+     */
     private $semestre;
     public function getMatricula():string
     {
